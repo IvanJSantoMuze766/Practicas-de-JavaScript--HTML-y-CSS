@@ -1,4 +1,4 @@
-#**Practica de Desarrollo Web: Calculadoras y Funcionalidades Basicas**
+**Practica de Desarrollo Web: Calculadoras y Funcionalidades Basicas**
 
 Este es un proyecto de practica de desarrollo web que incluye varias calculadoras simples y funcionalidades basicas implementadas utilizando HTML, CSS, y JavaScript. El objetivo de este proyecto es aplicar y practicar los siguientes conceptos:
 
@@ -10,7 +10,7 @@ Este es un proyecto de practica de desarrollo web que incluye varias calculadora
 
 -Integración de estilos y componentes de Bootstrap para mejorar la apariencia y usabilidad de las aplicaciones web.
 
-##**#Lista de Funcionalidades Implementadas**
+**#Lista de Funcionalidades Implementadas**
 
 -**Calculadora de Indice de Masa Corporal (IMC)**: Calcula el Indice de Masa Corporal (IMC) a partir del peso y la altura ingresados por el usuario, y muestra la categoria de peso correspondiente (bajo peso, peso normal, sobrepeso u obesidad).
 
@@ -22,7 +22,7 @@ Este es un proyecto de practica de desarrollo web que incluye varias calculadora
 
 -**Aplicacion de Contador**: Permite al usuario incrementar o decrementar un contador y muestra el valor actualizado en la pagina.
 
-##**#Estructura del Proyecto**
+**#Estructura del Proyecto**
 
 El proyecto esta organizado en los siguientes archivos:
 
@@ -32,7 +32,7 @@ El proyecto esta organizado en los siguientes archivos:
 
 -**JavaScript**: Archivos JavaScript para implementar la logica de las calculadoras y funcionalidades.
 
-##**#Descripcion de los Archivos JavaScript**
+**#Descripcion de los Archivos JavaScript**
 
 **c-imc.js**: Contiene la logica para calcular el IMC en la calculadora de Indice de Masa Corporal (IMC). Utiliza la funcion calculateBMI() para calcular el IMC y determinar la categoria de peso.
 
@@ -44,8 +44,8 @@ El proyecto esta organizado en los siguientes archivos:
 
 **ap-cr.js**: Contiene las funciones increment() y decrement() que permiten al usuario incrementar o decrementar un contador en la aplicacion de contador.
 
-##**#Como Usar**
+**#Como Usar**
 Para utilizar cualquiera de las calculadoras o funcionalidades, simplemente abre el archivo HTML correspondiente en tu navegador web preferido.
 
-##**#Contribucion**
+**#Contribucion**
 Las contribuciones son bienvenidas y se pueden realizar mediante solicitudes de extraccion. Si tienes alguna idea para mejorar el proyecto o agregar nuevas funcionalidades, ¡no dudes en contribuir!
