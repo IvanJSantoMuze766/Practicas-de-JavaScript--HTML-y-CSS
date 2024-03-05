@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Préstamos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="c-pr.css">
+</head>
+<body style="background-color: #7fffd4;">
+    <div class="container">
+        <h1 class="mt-5">Calculadora de Préstamos</h1>
+        <div class="row mt-4">
+            <div class="col">
+                <label for="loanAmount">Monto del préstamo:</label>
+                <input type="number" id="loanAmount" class="form-control">
+            </div>
+            <div class="col">
+                <label for="interestRate">Tasa de interés anual (%):</label>
+                <input type="number" id="interestRate" class="form-control">
+            </div>
+            <div class="col">
+                <label for="loanTerm">Plazo del préstamo (años):</label>
+                <input type="number" id="loanTerm" class="form-control">
+            </div>
+        </div>
+        <button onclick="calculateLoan()" class="btn btn-primary mt-3">Calcular</button>
+        <div id="result" class="mt-4"></div>
+    </div>div>
+
+    <script src="c-pr.js"></script>
+</body>
+</html>
